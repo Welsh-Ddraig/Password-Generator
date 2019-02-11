@@ -5,7 +5,9 @@ ALPHABET = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q",
 SPECIAL_CHARACTER = [",","!","@","#","$","%","^","&","*","(",")","-","_","=","+"]
 
 def main():
-    count = 15
+    
+    password_length = int(input("How long would you like your password? "))
+    count = password_length
     alpha_or_special = randint(1,2)
     
     password = ""
